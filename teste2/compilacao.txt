@@ -1,0 +1,4 @@
+gcc -c funcoes.c -Wall
+gcc -c sudoku.c -Wall
+gcc funcoes.o sudoku.o -o sudoku
+./sudoku arquivo.txt
